@@ -7,7 +7,9 @@ from player import Player
 from shot import Shot
 def main():
 	pygame.init()
+	# sets game clock for fps purposes
 	clock = pygame.time.Clock()
+	# initial fps value
 	dt = 0
 	screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 	updatable = pygame.sprite.Group()
